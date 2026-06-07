@@ -65,7 +65,7 @@ export function Contact() {
             icon={<Download className="w-5 h-5" />}
             label="Resume"
             value="Download CV (PDF)"
-            href="/Asheni_Imalsha_CV.pdf"
+            href="/Asheni_Intern_CV.pdf"
             download
           />
         </motion.div>

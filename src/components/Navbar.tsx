@@ -97,7 +97,7 @@ export function Navbar() {
             {dark ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
           </button>
           <a
-            href="/Asheni_Imalsha_CV.pdf"
+            href="/Asheni_Intern_CV.pdf"
             download
             className="hidden sm:inline-flex items-center gap-2 rounded-full bg-foreground text-background px-4 py-2 text-sm font-medium hover:bg-primary transition-colors"
           >
@@ -139,7 +139,7 @@ export function Navbar() {
               </a>
             ))}
             <a
-              href="/Asheni_Imalsha_CV.pdf"
+              href="/Asheni_Intern_CV.pdf"
               download
               className="inline-flex items-center gap-2 rounded-full bg-foreground text-background px-4 py-2 text-sm font-medium w-fit"
             >
