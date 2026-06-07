@@ -9,7 +9,7 @@ let serverEntry: ServerEntry | null = null;
 async function getServerEntry(): Promise<ServerEntry> {
   if (!serverEntry) {
     try {
-      const mod = await import("../dist/server/entry.server.mjs");
+      const mod = await import("../dist/server/server.js");
       serverEntry = mod.default || mod;
     } catch (error) {
       console.error("Failed to load server entry:", error);
