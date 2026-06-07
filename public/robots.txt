@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://asheni-showcase.lovable.app/sitemap.xml
